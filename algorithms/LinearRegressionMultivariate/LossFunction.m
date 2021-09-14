@@ -1,4 +1,4 @@
-function J = computeCostMulti(X, y, theta)
+function J = LossFunction(X, y, theta)
 
 
 % Initialize some useful values
