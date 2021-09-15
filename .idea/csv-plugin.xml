@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="C:\ProgramData\Anaconda3\envs\Data-Analysis\Lib\site-packages\statsmodels\datasets\committee\committee.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\Boston.csv">
           <value>
             <Attribute>
