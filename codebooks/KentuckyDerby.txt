@@ -1,0 +1,29 @@
+Kentucky Derby Results
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+The Kentucky Derby data contains the results of the Kentucky Derby, a 1.25-mile horse race held annually at the Churchill Downs racetrack in
+Louisville, Kentucky for the years 1896-2017 (Wikipedia contributors 2018).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Format
+This data frame contains the following columns:
+
+year
+year of the race
+
+winner
+the winning horse
+
+condition
+the track condition which has been grouped into three categories: fast, good (which includes the official designations “good” and “dusty”), and slow (which includes the designations “slow”, “heavy”, “muddy”, and “sloppy”).
+
+speed
+the average speed (in feet per second) of the winner
+
+starters
+number of starters (horses who raced)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Source
+Wikipedia contributors. 2018. “Kentucky Derby.” In Wikipedia. https://en.wikipedia.org/wiki/Kentucky_Derby.
