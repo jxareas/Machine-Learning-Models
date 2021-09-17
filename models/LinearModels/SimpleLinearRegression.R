@@ -1,6 +1,8 @@
 library(dplyr)
 library(car)
 library(ggplot2)
+library(ggfortify)
+library(ggthemes)
 
 df <-
   as.data.frame(read.csv("./data/Davis.csv"))
@@ -79,4 +81,15 @@ print(compareCoefs(fit, fit2))
 
 print(linearHypothesis(fit2, "repwt = 1"))
 
+# Diagnostic Plots for the Second Fit (Removed Outlier) ---------------------------------------------------------------
 
+autoplot(fit2, which = 1:6, colour = "darkblue",
+         smooth.colour = "magenta", ad.colour = "black",
+         label.n = 0, ncol = 3, size = 2
+         ) +
+  theme_stata() +
+  theme(
+    plot.title = element_text(face = "bold", hjust = .5),
+    axis.title.x = element_text(face = "bold", color = "dimgrey"),
+    axis.title.y = element_text(face = "bold", color = "dimgrey"),
+  )
