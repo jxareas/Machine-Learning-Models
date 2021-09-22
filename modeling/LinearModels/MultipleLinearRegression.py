@@ -35,6 +35,8 @@ print(lm2_summ)
 
 #%% Nested-Model Testing
 
-# Low p-value: we reject the Null-Hypothesis that the second linear model provides a significantly better fit
+# Low p-value: we reject the Null-Hypothesis that the first linear
+# model provides a significantly better fit, and we accept the
+# second model (lm2)
 anova_results = anova.anova_lm(lm, lm2)
 print(anova_results)
